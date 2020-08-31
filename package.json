@@ -1,0 +1,20 @@
+{
+  "name": "rembrandt_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstTest.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cortisiko/Image-Diff.git"
+  },
+  "author": "cortisiko",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "rembrandt": "^0.1.3"
+  }
+}
