@@ -1,1 +1,1 @@
-Quick image diff'ing tutorial using rembrandt and node.js
+Demonstarting visual regression using testcafe + rembrandt.
