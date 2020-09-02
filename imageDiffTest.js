@@ -3,8 +3,8 @@ import fs from "fs"
 
  let baseImage, secondImage, rembrandt
 
- baseImage ='images/HaroldQApassed.png'
- secondImage = 'images/HaroldQApassedincorrect.png',
+ baseImage ='BaseImages/HaroldQApassed.png'
+ secondImage = 'BaseImages/HaroldQApassedincorrect.png',
 
    rembrandt = new Rembrandt({
     imageA: baseImage,

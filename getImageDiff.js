@@ -26,7 +26,7 @@ let writeImageDiffToFile = ((result)=>{
 // Run the comparison
 rembrandt.compare()
   .then(function (result) {
-    result == 'true' ? getResults(result) : writeImageDiffToFile(result);  
+    result.passed == true ? getResults(result) : writeImageDiffToFile(result);  
 })
   .catch((e) => {
     console.error(e)
